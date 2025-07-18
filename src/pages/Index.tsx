@@ -482,36 +482,31 @@ const Index = () => {
                 <Card className="border-warm-peach/20">
                   <CardHeader>
                     <CardTitle className="text-warm-brown font-display">Записаться на консультацию</CardTitle>
-                    <CardDescription>Оставьте заявку, и я свяжусь с вами для записи</CardDescription>
+                    <CardDescription>Свяжитесь со мной напрямую через WhatsApp</CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <div>
-                      <label className="text-sm font-medium text-warm-brown">Имя</label>
-                      <input 
-                        type="text" 
-                        placeholder="Ваше имя"
-                        className="w-full mt-1 px-3 py-2 border border-warm-peach/30 rounded-md focus:outline-none focus:ring-2 focus:ring-warm-sage"
-                      />
+                    <div className="text-center space-y-4">
+                      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto">
+                        <Icon name="MessageCircle" className="h-8 w-8 text-green-600" />
+                      </div>
+                      <p className="text-warm-brown/70">
+                        Напишите мне в WhatsApp, и я отвечу в течение часа в рабочее время
+                      </p>
+                      <a 
+                        href="https://wa.me/79991234567?text=Здравствуйте! Хочу записаться на консультацию к психологу"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block"
+                      >
+                        <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                          <Icon name="MessageCircle" className="h-4 w-4 mr-2" />
+                          Написать в WhatsApp
+                        </Button>
+                      </a>
+                      <p className="text-sm text-warm-brown/60">
+                        +7 (999) 123-45-67
+                      </p>
                     </div>
-                    <div>
-                      <label className="text-sm font-medium text-warm-brown">Телефон</label>
-                      <input 
-                        type="tel" 
-                        placeholder="+7 (999) 123-45-67"
-                        className="w-full mt-1 px-3 py-2 border border-warm-peach/30 rounded-md focus:outline-none focus:ring-2 focus:ring-warm-sage"
-                      />
-                    </div>
-                    <div>
-                      <label className="text-sm font-medium text-warm-brown">Сообщение</label>
-                      <textarea 
-                        placeholder="Кратко опишите вашу ситуацию..."
-                        rows={3}
-                        className="w-full mt-1 px-3 py-2 border border-warm-peach/30 rounded-md focus:outline-none focus:ring-2 focus:ring-warm-sage"
-                      />
-                    </div>
-                    <Button className="w-full bg-warm-sage hover:bg-warm-brown text-white">
-                      Отправить заявку
-                    </Button>
                   </CardContent>
                 </Card>
               </div>
