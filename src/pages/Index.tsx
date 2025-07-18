@@ -506,9 +506,7 @@ const Index = () => {
                           Написать в WhatsApp
                         </Button>
                       </a>
-                      <p className="text-sm text-warm-brown/60">
-                        +7 (999) 123-45-67
-                      </p>
+                      <p className="text-sm text-warm-brown/60">+7 (916) 317-47-31</p>
                     </div>
                   </CardContent>
                 </Card>
