@@ -162,29 +162,30 @@ const Index = () => {
             <h2 className="text-4xl font-display font-bold text-warm-brown mb-8">Обо мне</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="text-left">
-                <p className="text-lg text-warm-brown/80 mb-6 leading-relaxed">
-                  Я — клинический психолог с 8-летним опытом работы. Специализируюсь на помощи детям, подросткам и взрослым в решении эмоциональных и поведенческих проблем.
-                </p>
+                <p className="text-lg text-warm-brown/80 mb-6 leading-relaxed">Я — клинический психолог с более чем 15-летним опытом работы. Специализируюсь на помощи детям, подросткам и взрослым в решении эмоциональных, поведенческих и когнитивных проблем.</p>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <Icon name="GraduationCap" className="h-6 w-6 text-warm-sage mt-1" />
                     <div>
                       <h4 className="font-semibold text-warm-brown">Образование</h4>
-                      <p className="text-warm-brown/70">МГУ, факультет психологии, клинический психолог</p>
+                      <p className="text-warm-brown/70">МГППУ, факультет психологического консультирования.
+Клинический психолог, преподаватель психологии</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Icon name="Award" className="h-6 w-6 text-warm-sage mt-1" />
                     <div>
-                      <h4 className="font-semibold text-warm-brown">Сертификаты</h4>
-                      <p className="text-warm-brown/70">КПТ, Гештальт-терапия, Арт-терапия</p>
+                      <h4 className="font-semibold text-warm-brown">Направления работы</h4>
+                      <p className="text-warm-brown/70"></p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Icon name="Users" className="h-6 w-6 text-warm-sage mt-1" />
                     <div>
                       <h4 className="font-semibold text-warm-brown">Опыт</h4>
-                      <p className="text-warm-brown/70">Более 500 успешных случаев</p>
+                      <p className="text-warm-brown/70">8 лет практики в реабилитационном центре для детей инвалидов
+3 года практики в должности учителя дефектолога и 5 лет работы педагогом-психологом в группах для детей с ЗПР и РАС
+3 летний опыт работы в ТПМПК г. Реутова</p>
                     </div>
                   </div>
                 </div>
