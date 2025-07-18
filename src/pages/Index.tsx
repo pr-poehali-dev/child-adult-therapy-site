@@ -124,21 +124,24 @@ const Index = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1 animate-fade-in">
               <h1 className="text-5xl lg:text-6xl font-display font-bold text-warm-brown mb-6 leading-tight">
-                Психологическая помощь детям и взрослым
+                Верните радость жизни — начните с первого шага
               </h1>
               <p className="text-xl text-warm-brown/80 mb-8 leading-relaxed">
-                Создаю безопасное пространство для вашего эмоционального благополучия. 
-                Помогаю справиться с тревогой, стрессом и найти внутреннюю гармонию.
+                Тревога, стресс, семейные конфликты — всё это можно преодолеть. 
+                Я помогу вам и вашим близким найти внутреннюю силу и гармонию. 
+                Индивидуальный подход к каждому — детям и взрослым.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-warm-sage hover:bg-warm-brown text-white text-lg px-8 py-3">
-                  <Icon name="Calendar" className="mr-2 h-5 w-5" />
-                  Записаться на приём
-                </Button>
-                <Button size="lg" variant="outline" className="border-warm-sage text-warm-sage hover:bg-warm-sage hover:text-white text-lg px-8 py-3">
-                  <Icon name="Phone" className="mr-2 h-5 w-5" />
-                  Бесплатная консультация
-                </Button>
+              <div className="flex justify-center sm:justify-start">
+                <a 
+                  href="https://wa.me/79991234567?text=Здравствуйте! Хочу записаться на консультацию к психологу"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button size="lg" className="bg-warm-sage hover:bg-warm-brown text-white text-lg px-8 py-3">
+                    <Icon name="MessageCircle" className="mr-2 h-5 w-5" />
+                    Записаться на приём
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="flex-1 animate-scale-in">
