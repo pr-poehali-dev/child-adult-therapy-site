@@ -103,7 +103,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Icon name="Heart" className="h-8 w-8 text-warm-brown" />
-            <span className="text-2xl font-display font-bold text-warm-brown">Анна Смирнова</span>
+            <span className="text-2xl font-display font-bold text-warm-brown">Юлия Конопелько</span>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="text-warm-brown hover:text-warm-sage transition-colors">Обо мне</a>
@@ -444,28 +444,28 @@ const Index = () => {
                     <Icon name="Phone" className="h-6 w-6 text-warm-sage" />
                     <div>
                       <p className="font-semibold text-warm-brown">Телефон</p>
-                      <p className="text-warm-brown/70">+7 (999) 123-45-67</p>
+                      <p className="text-warm-brown/70">+7 (916) 317-47-31</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Icon name="Mail" className="h-6 w-6 text-warm-sage" />
                     <div>
                       <p className="font-semibold text-warm-brown">Email</p>
-                      <p className="text-warm-brown/70">anna.smirnova@example.com</p>
+                      <p className="text-warm-brown/70">yuliyakonopelko@yandex.ru</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Icon name="MapPin" className="h-6 w-6 text-warm-sage" />
                     <div>
                       <p className="font-semibold text-warm-brown">Адрес</p>
-                      <p className="text-warm-brown/70">г. Москва, ул. Примерная, д. 10</p>
+                      <p className="text-warm-brown/70">г. Реутов,  пр-кт Мира, д. 12к1</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Icon name="Clock" className="h-6 w-6 text-warm-sage" />
                     <div>
                       <p className="font-semibold text-warm-brown">Время работы</p>
-                      <p className="text-warm-brown/70">Пн-Пт: 9:00-20:00<br />Сб: 10:00-16:00</p>
+                      <p className="text-warm-brown/70">Пн-Пт 10:00 - 21:00</p>
                     </div>
                   </div>
                 </div>
