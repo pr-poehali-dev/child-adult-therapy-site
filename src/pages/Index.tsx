@@ -224,35 +224,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Specialization Section */}
-      <section id="specialization" className="py-16 px-4 bg-white">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-display font-bold text-warm-brown text-center mb-12">Специализация</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-20 h-20 bg-warm-peach/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="Zap" className="h-10 w-10 text-warm-peach" />
-              </div>
-              <h3 className="text-xl font-display font-semibold text-warm-brown mb-4">Тревожные расстройства</h3>
-              <p className="text-warm-brown/70">Панические атаки, фобии, генерализованное тревожное расстройство</p>
-            </div>
-            <div className="text-center">
-              <div className="w-20 h-20 bg-warm-sage/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="CloudRain" className="h-10 w-10 text-warm-sage" />
-              </div>
-              <h3 className="text-xl font-display font-semibold text-warm-brown mb-4">Депрессивные состояния</h3>
-              <p className="text-warm-brown/70">Депрессия, апатия, эмоциональное выгорание</p>
-            </div>
-            <div className="text-center">
-              <div className="w-20 h-20 bg-warm-brown/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="Baby" className="h-10 w-10 text-warm-brown" />
-              </div>
-              <h3 className="text-xl font-display font-semibold text-warm-brown mb-4">Детская психология</h3>
-              <p className="text-warm-brown/70">Поведенческие проблемы, адаптация, развитие эмоционального интеллекта</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Methods Section */}
       <section id="methods" className="py-16 px-4 bg-warm-sage/10">
